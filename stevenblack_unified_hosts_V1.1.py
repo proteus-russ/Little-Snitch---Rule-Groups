@@ -1,13 +1,14 @@
+#!/usr/bin/env python2.7
 import os
 import time
 import urllib2
 
 def main():
 
-	#target_url='https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts'
-	target_url='https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts'
-	output_dir='unified_host_f_g_p'
-	output_script='stevenblack'
+	target_url='https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts'
+	#target_url='https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts'
+	output_dir='subscriptions'
+	output_script='blacklist'
 	description=''
 	name='Steven Black'
 	script_number=0
